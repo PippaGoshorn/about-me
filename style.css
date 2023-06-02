@@ -50,7 +50,7 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 8rem;
+    font-size: 9rem;
     background-image: url(https://cdn.britannica.com/12/140912-050-5DC0C789/Triumph-of-Galatea-Raphael-Villa-Farnesina-Rome.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -77,14 +77,13 @@ nav {
 .div3 {
     background-color: rgb(63, 121, 187);
     color: white;
-    text-shadow: 2px 2px rgb(178, 100, 100);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     text-align: center;
     font-size: 4rem;
-    background-image: url(./img/italian.avif);
+    background-image: url(./img/french.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,14 +92,13 @@ nav {
 .div4 {
     background-color: rgba(177, 84, 177, 0.767);
     color: white;
-    text-shadow: 2px 2px rgb(178, 100, 100);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
     text-align: center;
     font-size: 5rem;
-    background-image: url(./img/travel2.avif);
+    background-image: url(./img/thailand.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,26 +107,25 @@ nav {
 .div5 {
     background-color: rgb(212, 131, 176);
     color: white;
-    text-shadow: 2px 2px rgb(132, 240, 224);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
     text-align: center;
     font-size: 5rem;
-    background-image: url(./img/web-dev.avif);
+    background-image: url(./img/web-development.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .div6 {
-    background-color: rgb(255, 246, 174);
+    background-color: rgb(132, 240, 224);
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    color: rgb(132, 240, 224);
+    color:  white;
     text-align: center;
     font-size: 4rem;
 }
@@ -138,14 +135,19 @@ nav {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-end: 7;
     color: white;
     text-align: center;
-    font-size: 5rem;
+    font-size: 7rem;
+    writing-mode: vertical-rl;
     background-image: url(./img/cooking.avif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.div7 p {
+    transform:rotate(180deg);
 }
 
 .div8 {
@@ -171,9 +173,8 @@ nav {
     grid-row-end: 7;
     color: white;
     text-align: center;
-    font-size: 4.5rem;
-    text-shadow: 1px 1px rgb(159, 195, 226);
-    background-image: url(./img/interior-design.jpg);
+    font-size: 5rem;
+    background-image: url(./img/interior-design4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -188,8 +189,22 @@ nav {
     color: white;
     text-align: center;
     font-size: 5rem;
-    writing-mode: vertical-rl;
-    background-image: url(./img/country-walk.jpg);
+    background-image: url(./img/country-walk2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div11 {
+    background-color :rgb(63, 121, 187);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    color: white;
+    text-align: center;
+    font-size: 7rem;
+    background-image: url(./img/warwick-castle.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
